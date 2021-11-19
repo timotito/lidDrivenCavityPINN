@@ -1,4 +1,4 @@
-# lidDrivenCavityPINN
+# Lid Driven Cavity PINN
 
 This code was written together with Mr. Jiang Qinghua and Dr. Shu Chang of the National University of Singapore, in partial fulfilment of my Final Year Project.
 
