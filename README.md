@@ -1,6 +1,6 @@
 # Lid Driven Cavity PINN
 
-This code was written together with Mr. Jiang Qinghua and Dr. Shu Chang of the National University of Singapore, in partial fulfilment of my Final Year Project.
+This code was written together with Mr. Jiang Qinghua and Dr. Shu Chang, in partial fulfilment of my Final Year Project at the National University of Singapore (NUS).
 
 For the project, I compare two ML approaches to modelling a lid-driven cavity flow. The first is a data-driven multi-layer perceptron (MLP) model, which is a naive black-box function approximation of the true underlying process. The second is a physics-inferred neural net- work (PINN), which incorporates the Navier–Stokes equations into the loss function for training.
 
