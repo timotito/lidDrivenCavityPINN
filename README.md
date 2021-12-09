@@ -11,3 +11,7 @@ The PINN also allows essentially unsupervised training when set up correctly; in
 Please read the attached PDF for full details on project methodology and observations.
 
 The accuracy in execution or prediction of the given code is not guaranteed. Use of the included codes subject to the usual citation requirements.
+
+In `train_nn.py`, a brief minimum working example of the underlying code is provided. In the `PINN` class, I define a custom loss function incorporating the standard MSE as well as additional MSE derived by testing the PINN against the Navier--Stokes equations. This file is meant to be run as-is, with minimal customisation required, in order to provide a basic idea of how the PINN works. Further modifications can be made to the code, to achieve more interesting results.
+
+The training of the PINN is directly contrasted to the training of a standard naive neural network, internally named `mlp` for multi-layer perceptron. Both models are trained using the same observed data and the weights of the converged models are saved, allowing for subsequent analysis of MSEs and other statistical data.
